@@ -1,3 +1,4 @@
+import { AiFillHome } from "react-icons/ai"
 import Switcher from "./Switcher"
 
 const Navbar = () => {
@@ -10,6 +11,9 @@ const Navbar = () => {
         <li className="font-bold">Skills</li>
         <li className="font-bold">Portfolio</li>
         <li className="font-bold">Contact</li>
+      </ul>
+      <ul>
+        <li><AiFillHome /></li>
       </ul>
       <Switcher />
     </header>
