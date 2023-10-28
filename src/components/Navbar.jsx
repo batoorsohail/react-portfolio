@@ -1,4 +1,7 @@
-import { AiFillHome } from "react-icons/ai"
+import { AiFillHome } from "react-icons/ai";
+import { BiSolidUser, BiLogoReact } from "react-icons/bi";
+import { SiWindows11 } from "react-icons/si";
+import { BsFillChatTextFill } from "react-icons/bs";
 import Switcher from "./Switcher"
 
 const Navbar = () => {
@@ -12,8 +15,14 @@ const Navbar = () => {
         <li className="font-bold">Portfolio</li>
         <li className="font-bold">Contact</li>
       </ul>
-      <ul>
-        <li><AiFillHome /></li>
+      <ul className="absolute left-1/2 transform translate-x-1/2 bottom-6 p-3" style="-webkit-transform: translateX(-50%)">
+        <div className="flex items-center self-center gap-4">
+          <li className="text-black text-xl"><AiFillHome /></li>
+          <li className="text-black text-xl"><BiSolidUser /></li>
+          <li className="text-black text-xl"><BiLogoReact /></li>
+          <li className="text-black text-xl"><SiWindows11 /></li>
+          <li className="text-black text-xl"><BsFillChatTextFill /></li>
+        </div>
       </ul>
       <Switcher />
     </header>
