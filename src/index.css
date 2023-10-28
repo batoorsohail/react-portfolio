@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .custom-transform {
+    -webkit-transform: translateX(-50%);
+  }
+
+  .blur-bg-nav {
+    backdrop-filter: blur(20px);
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
