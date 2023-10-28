@@ -59,7 +59,7 @@ The key features of this application:
 
 You can have access to my project online by clicking on the below link:
 
-- [Live Demo Link](https://batoorsohail.github.io/my-portfolio/)
+- [Comming Soon...]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
