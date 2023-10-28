@@ -15,13 +15,13 @@ const Navbar = () => {
         <li className="font-bold">Portfolio</li>
         <li className="font-bold">Contact</li>
       </ul>
-      <ul className="absolute left-1/2 transform translate-x-1/2 bottom-6 p-3" style="-webkit-transform: translateX(-50%)">
-        <div className="flex items-center self-center gap-4">
-          <li className="text-black text-xl"><AiFillHome /></li>
-          <li className="text-black text-xl"><BiSolidUser /></li>
-          <li className="text-black text-xl"><BiLogoReact /></li>
-          <li className="text-black text-xl"><SiWindows11 /></li>
-          <li className="text-black text-xl"><BsFillChatTextFill /></li>
+      <ul className="fixed custom-transform left-1/2 blur-bg-nav rounded-[3rem] bottom-6 px-[0.8rem] py-[0.6rem] lg:hidden">
+        <div className="flex items-center gap-4">
+          <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><AiFillHome /></li>
+          <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><BiSolidUser /></li>
+          <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><BiLogoReact /></li>
+          <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><SiWindows11 /></li>
+          <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><BsFillChatTextFill /></li>
         </div>
       </ul>
       <Switcher />
