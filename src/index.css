@@ -9,6 +9,6 @@
 
   .blur-bg-nav {
     backdrop-filter: blur(20px);
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(28, 28, 28, 0.4);
   }
 }
