@@ -11,4 +11,8 @@
     backdrop-filter: blur(20px);
     background: rgba(28, 28, 28, 0.4);
   }
+
+  .almost-gray {
+    color: rgb(136, 136, 136);
+  }
 }
