@@ -18,6 +18,13 @@ const About = () => {
             <p className="almost-gray">25+ completed</p>
           </div>
         </div>
+        <p className='almost-gray'>
+          Full-Stack Developer with a passion for pair programming, JavaScript, and remote work.
+          I have completed 30+ projects and received recognition for my work in software development. 
+          Currently, I am a Full-Stack Development student at Microverse, where I am honing my skills 
+          in front-end technologies such as JavaScript, React, and Redux, as well as back-end technologies
+          like PostgreSQL, Ruby, and Ruby on Rails.
+        </p>
       </div> 
     </section>
   )
