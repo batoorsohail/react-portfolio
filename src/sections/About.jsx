@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <p className='almost-gray'>
+          <p className='almost-gray mb-8'>
             Full-Stack Developer with a passion for pair programming, JavaScript, and remote work.
             I have completed 30+ projects and received recognition for my work in software development. 
             Currently, I am a Full-Stack Development student at Microverse, where I am honing my skills 
@@ -31,6 +31,9 @@ const About = () => {
             like PostgreSQL, Ruby, and Ruby on Rails.
           </p>
         </div>
+        <button type="button">
+          Download Resume
+        </button>
       </div> 
     </section>
   )
