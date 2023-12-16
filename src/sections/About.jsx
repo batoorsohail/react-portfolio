@@ -5,9 +5,9 @@ import { FaDownload } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <section className="bg-black text-white px-5">
+    <section className="bg-black dark:bg-white text-white px-5">
       <div className="flex flex-col items-center justify-center py-10">
-        <h2 className="text-white text-2xl font-bold mb-8">About Me</h2>
+        <h2 className="text-white dark:text-black text-2xl font-bold mb-8">About Me</h2>
         <div>
           <img src={AboutPhoto} alt="Sohail's Photo" className="w-56 rounded-xl mb-10" />
         </div>
@@ -32,7 +32,7 @@ const About = () => {
             like PostgreSQL, Ruby, and Ruby on Rails.
           </p>
         </div>
-        <button type="button" className="flex items-center justify-center gap-5 bg-white text-lg text-black font-bold rounded-lg p-5">
+        <button type="button" className="flex items-center justify-center gap-5 bg-white dark:bg-black text-lg dark:text-white text-black font-bold rounded-lg p-5">
           Download Resume
           <FaDownload />
         </button>
