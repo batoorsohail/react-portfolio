@@ -11,13 +11,13 @@ const About = () => {
         <div>
           <img src={AboutPhoto} alt="Sohail's Photo" className="w-56 rounded-xl mb-10" />
         </div>
-        <div className="flex gap-5 mb-10">
-          <div className="flex flex-col items-center justify-center p-2 bg-[#333333] px-3 py-4 rounded-lg">
+        <div className="flex justify-between w-full mb-10">
+          <div className="flex flex-col items-center justify-center bg-[#333333] p-4 rounded-lg">
             <p className="text-2xl mb-2"><PiMedalBold /></p>
             <p className="text-white text-lg">Experience</p>
             <p className="almost-gray">1+ year working</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-2 bg-[#333333] px-3 py-4 rounded-lg">
+          <div className="flex flex-col items-center justify-center bg-[#333333] p-4 rounded-lg">
             <p className="text-2xl mb-2"><TbBooks /></p>
             <p className="text-white text-lg">Projects</p>
             <p className="almost-gray">25+ completed</p>
