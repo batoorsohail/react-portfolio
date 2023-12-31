@@ -16,3 +16,7 @@
     color: rgb(136, 136, 136);
   }
 }
+
+.project-desc {
+  border: 1px solid whitesmoke;
+}
