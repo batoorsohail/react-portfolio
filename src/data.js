@@ -3,6 +3,8 @@ import rideEase from './assets/rideEase.jpg';
 import cryptoWorld from './assets/crypto-world.jpg';
 import bookStore from './assets/book-store.jpg';
 import spaceTravelers from './assets/space-travlers.jpg';
+import toDOList from './assets/todo-list.jpg';
+import tvShow from './assets/tv-show.jpg';
 // Projects data
 export const projects = [
   {
@@ -40,6 +42,24 @@ export const projects = [
     tags: ['HTML ', 'css', 'JavaScript'],
     liveUrl: 'https://book-store-microverse.netlify.app/',
     sourceUrl: 'https://github.com/batoorsohail/book-store'
+  },
+  {
+    id: 5,
+    title: 'To Do List',
+    description: 'The React To-Do List is a web application designed to help users effectively manage their tasks and activities. Built with React and Vite, this application provides a seamless and intuitive user interface for adding, checking, and deleting tasks.',
+    image: toDOList,
+    tags: ['JavaScript', 'Webpack', 'CSS'],
+    liveUrl: 'https://batoorsohail.github.io/to-do-list/dist/',
+    sourceUrl: 'https://github.com/batoorsohail/to-do-list'
+  },
+  {
+    id: 6,
+    title: 'TV App',
+    description: 'This is a Movie website that displays movies using API. You can like movies, and also you can add comments. We built this webpage using JavaScript, HTML, and CSS.',
+    image: tvShow,
+    tags: ['JavaScript', 'Webpack', 'CSS'],
+    liveUrl: 'https://mertkantaroglu.github.io/JS-Capstone-Project/dist/index.html',
+    sourceUrl: 'https://github.com/batoorsohail/JS-Capstone-Project'
   },
 ];
 //skills 
