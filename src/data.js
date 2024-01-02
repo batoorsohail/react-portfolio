@@ -70,50 +70,62 @@ export const projects = [
 //skills 
 export const skills = [
   {
+    id: 1,
     title: 'HTML',
     icon: FaHtml5, 
   },
   {
+    id: 2,
     title: 'CSS',
     icon: FaCss3Alt, 
   },
   {
+    id: 3,
     title: 'JavaScript',
     icon: IoLogoJavascript, 
   },
   {
+    id: 4,
     title: 'React',
     icon: FaReact, 
   },
   {
+    id: 5,
     title: 'TailwindCss',
     icon: SiTailwindcss, 
   },
   {
+    id: 6,
     title: 'WebPack',
     icon: SiWebpack, 
   },
   {
+    id: 7,
     title: 'Redux',
     icon: SiRedux, 
   },
   {
+    id: 8,
     title: 'Git',
     icon: FaGitAlt, 
   },
   {
+    id: 9,
     title: 'GitHub',
     icon: FaGithubSquare, 
   },
   {
+    id: 10,
     title: 'Ruby',
     icon: DiRuby, 
   },
   {
+    id: 11,
     title: 'RubyOnRails',
     icon: SiRubyonrails , 
   },
   {
+    id: 12,
     title: 'PostgreSQL',
     icon: SiPostgresql, 
   },
