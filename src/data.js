@@ -72,61 +72,61 @@ export const skills = [
   {
     id: 1,
     title: 'HTML',
-    icon: FaHtml5, 
+    icon: FaHtml5,
   },
   {
     id: 2,
     title: 'CSS',
-    icon: FaCss3Alt, 
+    icon: FaCss3Alt,
   },
   {
     id: 3,
     title: 'JavaScript',
-    icon: IoLogoJavascript, 
+    icon: IoLogoJavascript,
   },
   {
     id: 4,
     title: 'React',
-    icon: FaReact, 
+    icon: FaReact,
   },
   {
     id: 5,
     title: 'TailwindCss',
-    icon: SiTailwindcss, 
+    icon: SiTailwindcss,
   },
   {
     id: 6,
     title: 'WebPack',
-    icon: SiWebpack, 
+    icon: SiWebpack,
   },
   {
     id: 7,
     title: 'Redux',
-    icon: SiRedux, 
+    icon: SiRedux,
   },
   {
     id: 8,
     title: 'Git',
-    icon: FaGitAlt, 
+    icon: FaGitAlt,
   },
   {
     id: 9,
     title: 'GitHub',
-    icon: FaGithubSquare, 
+    icon: FaGithubSquare,
   },
   {
     id: 10,
     title: 'Ruby',
-    icon: DiRuby, 
+    icon: DiRuby,
   },
   {
     id: 11,
     title: 'RubyOnRails',
-    icon: SiRubyonrails , 
+    icon: SiRubyonrails,
   },
   {
     id: 12,
     title: 'PostgreSQL',
-    icon: SiPostgresql, 
+    icon: SiPostgresql,
   },
 ];
