@@ -1,34 +1,55 @@
-import { AiFillHome } from 'react-icons/ai';
-import { BiSolidUser, BiLogoReact } from 'react-icons/bi';
-import { SiWindows11 } from 'react-icons/si';
-import { BsFillChatTextFill } from 'react-icons/bs';
-import Switcher from './Switcher';
+import React, { useState } from "react";
+import { BsList } from 'react-icons/bs';
+import { IoIosClose } from 'react-icons/io';
 
-const Navbar = () => (
-  <header className="flex items-center justify-between bg-black dark:bg-white px-3 py-6 md:px-12 lg:px-44">
-    <a href="/">
-      <h1 className="text-[20px] md:text-2xl font-bold text-white dark:text-black">
-        Sohail <span className="p-1 bg-white dark:bg-black text-black dark:text-white rounded-lg">Batoor</span>
-      </h1>
-    </a>
-    <ul className="hidden lg:flex items-center justify-between text-white dark:text-black gap-14">
-      <li className="font-bold">Home</li>
-      <li className="font-bold">About</li>
-      <li className="font-bold">Skills</li>
-      <li className="font-bold">Portfolio</li>
-      <li className="font-bold">Contact</li>
-    </ul>
-    <ul className="fixed custom-transform left-1/2 blur-bg-nav rounded-[3rem] bottom-6 px-[0.8rem] py-[0.6rem] lg:hidden">
-      <div className="flex items-center gap-4">
-        <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><AiFillHome /></li>
-        <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><BiSolidUser /></li>
-        <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><BiLogoReact /></li>
-        <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><SiWindows11 /></li>
-        <li className="text-white active:bg-black rounded-full text-[1.3rem] p-[0.5rem]"><BsFillChatTextFill /></li>
+function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="nav z-50 bg-gray-900 flex flex-row place-content-between items-center p-3 md:px-20 ">
+      <div className="logo font-main-font text-coding-color text-3xl font-bold">
+        Sohail Batoor
       </div>
-    </ul>
-    <Switcher />
-  </header>
-);
+      <div className="humbugger-container  sm:flex md:hidden">
+        <button
+          className="md:hidden rounded-md text-white focus:outline-none"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span className="sr-only">Open main menu</span>
+          <BsList className="h-6 w-6 text-coding-color" />
+        </button>
+      </div>
+
+      <div className={`navigation text-white   ${isOpen ? 'block' : 'hidden'} md:flex `}>
+        <ul className="flex flex-col md:flex-row place-content-around font-coding-font gap-x-6 text-gray-light text-lg p-4" onClick={() => setIsOpen(!isOpen)}>
+          <li className=" flex justify-end">
+            <IoIosClose className="btn-close sm text-3xl md:hidden" onClick={() => setIsOpen(!isOpen)} />
+
+          </li>
+          <li className="link">
+            <a className=" hover:text-white" href="#about" >
+              About
+            </a>
+          </li>
+          <li className="link">
+            <a className=" hover:text-white" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li className="link">
+            <a className=" hover:text-white" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li className="link">
+            <a className=" hover:text-white " href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+}
 
 export default Navbar;

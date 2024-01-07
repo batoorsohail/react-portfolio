@@ -1,132 +1,66 @@
 // importing Projects screenShots 
-import rideEase from './assets/rideEase.jpg';
-import cryptoWorld from './assets/crypto-world.jpg';
-import bookStore from './assets/book-store.jpg';
-import spaceTravelers from './assets/space-travlers.jpg';
-import toDOList from './assets/todo-list.jpg';
-import tvShow from './assets/tv-show.jpg';
-import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithubSquare } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiTailwindcss, SiWebpack, SiRedux, SiRubyonrails, SiPostgresql } from "react-icons/si";
-import { DiRuby } from "react-icons/di";
-
+import portfolioPath from './Images/Portfolio.gif';
+import moviesPath from './Images/movie_app.jpeg';
+import spacePath from './Images/space_traveler.jpeg';
+import countDown from './Images/countdown.jpeg';
+import todo from './Images/to_do_list.png';
+import moroccoMagic from './Images/Morooco_magic.png';
 // Projects data
 export const projects = [
   {
     id: 1,
-    title: 'RideEase',
-    description: 'RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.',
-    image: rideEase,
-    tags: ['Ruby on Rails', 'React', 'CSS'],
-    liveUrl: 'https://rideease.onrender.com/',
-    sourceUrl: 'https://github.com/batoorsohail/rideEase-front-end'
+    title: 'Personal Portfolio',
+    description: 'The Personal Portfolio is a dynamic web application built with React and TailwindCSS that serves as a showcase of my professional journey. It offers a clean and modern design, providing visitors with a simple yet engaging introduction to who I am, my experience, projects, and skills.',
+    image: portfolioPath,
+    tags: ['React', 'Css', 'TailwindCss'],
+    liveUrl: 'https://example.com',
+    sourceUrl: 'https://github.com/ridabensalem/rida-portfolio-'
   },
   {
     id: 2,
-    title: 'Crypto World',
-    description: 'Crypto World is a website that uses an API to get the data and show the cryptocurrency. Users can search for a coin or go to the details page which displays more information about the currency.',
-    image: cryptoWorld,
-    tags: ['React', 'Redux', 'CSS'],
-    liveUrl: 'https://crypto-world-microverse.netlify.app/',
-    sourceUrl: 'https://github.com/batoorsohail/crypto-world'
+    title: 'Movies App',
+    description: 'Movie app is a website that shows the different lists of movies depending on a chosen category and gives you the ability to add a like, and the number of, likes, a comment, reserve a movie, and add a comment for a selected movie. Built Using API and Javascript Webpack. and HTML CSS',
+    image: moviesPath,
+    tags: ['JavaScript', 'Webpack', 'Html', 'Css'],
+    liveUrl: 'https://candid-malasada-97375b.netlify.app/#',
+    sourceUrl: 'https://github.com/ridabensalem/Js-capstone-'
   },
   {
     id: 3,
     title: 'Space Travelers Hub',
     description: 'Space Traveler is a React web application designed to provide users with an immersive experience of space exploration. This app allows users to explore a list of rockets dragons, and missions, enabling them to reserve or cancel their bookings, users can join or leave missions, and their reserved items',
-    image: spaceTravelers,
-    tags: ['React', 'Redux', 'CSS'],
-    liveUrl: 'https://space-travelers-home.netlify.app/',
-    sourceUrl: 'https://github.com/batoorsohail/react-redux-group-project'
+    image: spacePath,
+    tags: ['React', 'Css', 'Redux'],
+    liveUrl: 'https://peppy-bublanina-be7cae.netlify.app/',
+    sourceUrl: 'https://github.com/ridabensalem/space-travelers-hub'
   },
   {
     id: 4,
-    title: 'Book Store',
-    description: 'Book Store is a simple website where users can add a book with the authors name and category of the book. When a user adds a new book it will push the data inside an API and then it will load it for others as well.',
-    image: bookStore,
+    title: 'countDown Timer',
+    description: 'The New Year Countdown Timer is a web application built with HTML, CSS, and JavaScript that counts the time remaining until the next year. This interactive countdown timer displays the number of days, hours, and minutes.',
+    image: countDown,
     tags: ['HTML ', 'css', 'JavaScript'],
-    liveUrl: 'https://book-store-microverse.netlify.app/',
-    sourceUrl: 'https://github.com/batoorsohail/book-store'
+    liveUrl: 'https://ridabensalem.github.io/Year-countdown-timer-/',
+    sourceUrl: 'https://github.com/ridabensalem/Year-countdown-timer-'
   },
   {
     id: 5,
-    title: 'To Do List',
+    title: 'React to do list ',
     description: 'The React To-Do List is a web application designed to help users effectively manage their tasks and activities. Built with React and Vite, this application provides a seamless and intuitive user interface for adding, checking, and deleting tasks.',
-    image: toDOList,
-    tags: ['JavaScript', 'Webpack', 'CSS'],
-    liveUrl: 'https://batoorsohail.github.io/to-do-list/dist/',
-    sourceUrl: 'https://github.com/batoorsohail/to-do-list'
+    image: todo,
+    tags: ['React', 'Vite ', 'Css'],
+    liveUrl: 'https://example.com',
+    sourceUrl: 'https://github.com/ridabensalem/React-to-do-list-'
   },
   {
     id: 6,
-    title: 'TV App',
-    description: 'This is a Movie website that displays movies using API. You can like movies, and also you can add comments. We built this webpage using JavaScript, HTML, and CSS.',
-    image: tvShow,
-    tags: ['JavaScript', 'Webpack', 'CSS'],
-    liveUrl: 'https://mertkantaroglu.github.io/JS-Capstone-Project/dist/index.html',
-    sourceUrl: 'https://github.com/batoorsohail/JS-Capstone-Project'
-  },
+    title: 'Morocco Magic ',
+    description: 'Morocco Magic is a static website that serves as a captivating representation of the tourism experiences in Morocco using dynamic Js to load some section in the projects . Built with HTML, CSS, and JavaScript.',
+    image: moroccoMagic,
+    tags: ['HTML', 'Css ', 'JavaScript'],
+    liveUrl: 'https://ridabensalem.github.io/Morocco-Magic/',
+    sourceUrl: 'https://github.com/ridabensalem/Morocco-Magic'
+  }
 ];
 //skills 
-export const skills = [
-  {
-    id: 1,
-    title: 'HTML',
-    icon: FaHtml5,
-  },
-  {
-    id: 2,
-    title: 'CSS',
-    icon: FaCss3Alt,
-  },
-  {
-    id: 3,
-    title: 'JavaScript',
-    icon: IoLogoJavascript,
-  },
-  {
-    id: 4,
-    title: 'React',
-    icon: FaReact,
-  },
-  {
-    id: 5,
-    title: 'TailwindCss',
-    icon: SiTailwindcss,
-  },
-  {
-    id: 6,
-    title: 'WebPack',
-    icon: SiWebpack,
-  },
-  {
-    id: 7,
-    title: 'Redux',
-    icon: SiRedux,
-  },
-  {
-    id: 8,
-    title: 'Git',
-    icon: FaGitAlt,
-  },
-  {
-    id: 9,
-    title: 'GitHub',
-    icon: FaGithubSquare,
-  },
-  {
-    id: 10,
-    title: 'Ruby',
-    icon: DiRuby,
-  },
-  {
-    id: 11,
-    title: 'RubyOnRails',
-    icon: SiRubyonrails,
-  },
-  {
-    id: 12,
-    title: 'PostgreSQL',
-    icon: SiPostgresql,
-  },
-];
+export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress', 'MySQL', 'Sass', 'PHP', 'TailwindCss', 'WebPack', 'Redux', 'Jest', 'Git', 'GitHub','Ruby','PostgreSQL'];
