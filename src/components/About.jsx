@@ -1,5 +1,4 @@
 import React from "react";
-import path from "../Images/rida-picture.jpeg";
 import aboutPhoto from "../Images/about-img.jpg"
 import {BsFillPersonFill} from "react-icons/bs";
 
