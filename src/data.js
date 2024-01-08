@@ -5,6 +5,10 @@ import bookStore from './Images/book-store.JPG';
 import spaceTravelers from './Images/space-travlers.JPG';
 import toDOList from './Images/todo-list.JPG';
 import tvShow from './Images/tv-show.JPG';
+import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithubSquare } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiTailwindcss, SiWebpack, SiRedux, SiRubyonrails, SiPostgresql } from "react-icons/si";
+import { DiRuby } from "react-icons/di";
 
 // Projects data
 export const projects = [
@@ -64,4 +68,67 @@ export const projects = [
   },
 ];
 //skills 
-export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress', 'MySQL', 'Sass', 'PHP', 'TailwindCss', 'WebPack', 'Redux', 'Jest', 'Git', 'GitHub','Ruby','PostgreSQL'];
+// export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress', 'MySQL', 'Sass', 'PHP', 'TailwindCss', 'WebPack', 'Redux', 'Jest', 'Git', 'GitHub','Ruby','PostgreSQL'];
+
+export const skills = [
+  {
+    id: 1,
+    title: 'HTML',
+    icon: FaHtml5,
+  },
+  {
+    id: 2,
+    title: 'CSS',
+    icon: FaCss3Alt,
+  },
+  {
+    id: 3,
+    title: 'JavaScript',
+    icon: IoLogoJavascript,
+  },
+  {
+    id: 4,
+    title: 'React',
+    icon: FaReact,
+  },
+  {
+    id: 5,
+    title: 'TailwindCss',
+    icon: SiTailwindcss,
+  },
+  {
+    id: 6,
+    title: 'WebPack',
+    icon: SiWebpack,
+  },
+  {
+    id: 7,
+    title: 'Redux',
+    icon: SiRedux,
+  },
+  {
+    id: 8,
+    title: 'Git',
+    icon: FaGitAlt,
+  },
+  {
+    id: 9,
+    title: 'GitHub',
+    icon: FaGithubSquare,
+  },
+  {
+    id: 10,
+    title: 'Ruby',
+    icon: DiRuby,
+  },
+  {
+    id: 11,
+    title: 'RubyOnRails',
+    icon: SiRubyonrails,
+  },
+  {
+    id: 12,
+    title: 'PostgreSQL',
+    icon: SiPostgresql,
+  },
+];
