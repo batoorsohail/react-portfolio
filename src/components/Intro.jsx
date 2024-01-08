@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import imagePath from '../Images/programmer.svg'
 function Intro() {
   const handleClick = () => {
-    window.location.href = "mailto:ridasbnesalmas@gmail.com"
+    window.location.href = "mailto:sohailshahidi1435@gmail.com"
 };
 
   return (

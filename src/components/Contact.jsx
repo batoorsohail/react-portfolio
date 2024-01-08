@@ -115,7 +115,6 @@ const Contact = () => {
     </div>
     <div className='flex justify-center items-center'>
         <Social />
-
     </div>
     </div>
   );
