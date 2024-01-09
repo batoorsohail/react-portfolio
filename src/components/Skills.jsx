@@ -37,10 +37,10 @@ import SkillCard from "../components/SkillCard";
 
 const Skills = () => {
   return (
-    <section>
-      <div class="flex flex-col items-center justify-center bg-black px-5 py-10">
+    <section id="skills">
+      <div class="flex flex-col items-center w-full h-[95vh] px-20 py-10">
         <h2 className="text-white text-3xl font-bold">Skills</h2>
-        <p className="almost-gray text-[18px] pb-8">Highlighting my abilities and expertise</p>
+        <p className="text-white text-[18px] mt-3 mb-10">Highlighting my abilities and expertise</p>
         <div className="flex flex-wrap justify-center gap-5 w-full">
           {skills.map(skill => (
             <SkillCard key={skill.id} skill={skill} />
