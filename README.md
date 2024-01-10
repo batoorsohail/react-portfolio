@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
-<div align="center">
-  <br/>
-  <h3><b>Portfolio README </b></h3>
-</div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -22,59 +21,45 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Personal Portfolio  <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
+# 📖 My Portfolio <a name="about-project"></a>
 
-Personal Portfolio  is a website that shows the projects I have built , my skills and a simple introduction about  me 
+A portfolio is one of the most important things for you to find a job. You can share it with the company you want to work for, and they can get more information about you through your portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### HTML and CSS <a name="HTML and Css"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+HTML and CSS are tools that web developers use to add text, photos, and videos, and also to design a website
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
+</details
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+The key features of this application:
 
-- **[List a list of skills ]**
-- **[Dropdown menu on the mobile version ]**
-- **[Typing animation]**
+- **My informations**
+- **My works**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+You can have access to my project online by clicking on the below link:
 
-- [Live Demo Link](https://portfoilio-scky.onrender.com/)
+- [Comming Soon...]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,97 +67,26 @@ Personal Portfolio  is a website that shows the projects I have built , my skill
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+If you want to use my project you should clone it into your computer and then open it in your code editor.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub 
+- Install Git 
+- Code Editor
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
+## 👥 Authors <a name="Sohail Batoor"></a>
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@batoorsohail](https://github.com/batoorsohail)
+- Twitter: [@twitter](https://twitter.com/sohailBatoor)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sohail-batoor-52429b230/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,11 +94,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Show a pop when clicking a selected project]**
-- [ ] **[Add more projects ]**
-- [ ] **[Add animations to the portfolio ]**
+- [ ] **My Projects**
+- [ ] **About Me**
+- [ ] **My Contact Information**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,9 +114,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+This is one of my first big project, and if you like it give a star to my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,25 +122,21 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for helping me to complete this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Can we clone it without Git?**
 
-- **[Question_1]**
+  - No, you should install Git.
 
-  - [Answer_1]
+- **Which programs did you use to make this?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - HTML and CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -239,7 +145,3 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
