@@ -1,10 +1,10 @@
 // importing Projects screenShots 
-import rideEase from './assets/rideEase.jpg';
-import cryptoWorld from './assets/crypto-world.jpg';
-import bookStore from './assets/book-store.jpg';
-import spaceTravelers from './assets/space-travlers.jpg';
-import toDOList from './assets/todo-list.jpg';
-import tvShow from './assets/tv-show.jpg';
+import rideEase from './Images/rideEase.JPG';
+import cryptoWorld from './Images/crypto-world.JPG';
+import bookStore from './Images/book-store.JPG';
+import spaceTravelers from './Images/space-travlers.JPG';
+import toDOList from './Images/todo-list.JPG';
+import tvShow from './Images/tv-show.JPG';
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithubSquare } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTailwindcss, SiWebpack, SiRedux, SiRubyonrails, SiPostgresql } from "react-icons/si";
@@ -68,6 +68,8 @@ export const projects = [
   },
 ];
 //skills 
+// export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress', 'MySQL', 'Sass', 'PHP', 'TailwindCss', 'WebPack', 'Redux', 'Jest', 'Git', 'GitHub','Ruby','PostgreSQL'];
+
 export const skills = [
   {
     id: 1,
