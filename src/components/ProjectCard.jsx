@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ProjectCard = ({ project }) => {
   const { name, description, image, liveUrl, sourceUrl } = project;
 
