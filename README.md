@@ -28,13 +28,11 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-A portfolio is one of the most important things for you to find a job. You can share it with the company you want to work for, and they can get more information about you through your portfolio.
+React Portfolio is a website that shows a simple introduction about me, the projects I have built, and the skills that I have.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### HTML and CSS <a name="HTML and Css"></a>
-
-HTML and CSS are tools that web developers use to add text, photos, and videos, and also to design a website
+### React and TailwindCSS <a name="HTML and Css"></a>
 
 <details>
   <summary>Client</summary>
@@ -50,8 +48,8 @@ HTML and CSS are tools that web developers use to add text, photos, and videos, 
 
 The key features of this application:
 
-- **My informations**
-- **My works**
+- **Typing Animation**
+- **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
