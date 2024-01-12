@@ -120,7 +120,6 @@ This is one of my first big project, and if you like it give a star to my projec
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for helping me to complete this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
